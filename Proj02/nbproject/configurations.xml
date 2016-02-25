@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BubbleSortDecreasing.h</itemPath>
+      <itemPath>BubbleSortIncreasing.h</itemPath>
+      <itemPath>BubbleSortTemplate.h</itemPath>
+      <itemPath>CDatabase.h</itemPath>
+      <itemPath>CDatabaseSortByFirstName.h</itemPath>
+      <itemPath>CDatabaseSortByHiringYear.h</itemPath>
+      <itemPath>CDatabaseSortByLastName.h</itemPath>
+      <itemPath>CDatabaseSortBySalary.h</itemPath>
+      <itemPath>CDatabaseSortable.h</itemPath>
+      <itemPath>CEmployee.h</itemPath>
+      <itemPath>CManager.h</itemPath>
+      <itemPath>SortableVector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="BubbleSortDecreasing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BubbleSortIncreasing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BubbleSortTemplate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortByFirstName.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortByHiringYear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortByLastName.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortBySalary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CEmployee.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SortableVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BubbleSortDecreasing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BubbleSortIncreasing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BubbleSortTemplate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortByFirstName.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortByHiringYear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortByLastName.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortBySalary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDatabaseSortable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CEmployee.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SortableVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
