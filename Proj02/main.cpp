@@ -103,7 +103,7 @@ int main(int argc, char** argv) {
     
     cout<<"*****************************After Sorting by Salary Decreasing"<<endl;
     CDatabaseSortBySalary DBSortedBySalaryDec(allEmps);
-    bsDec.sort(&DBSortedBySalary);
+    bsDec.sort(&DBSortedBySalaryDec);
     DBSortedBySalaryDec.print();
     
     cout<<"*****************************After Sorting by HiringYear Increasing"<<endl;

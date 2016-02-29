@@ -7,19 +7,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/BubbleSortIncreasing.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/BubbleSortTemplate.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/SortableVector.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/BubbleSortDecreasing.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CManager.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CDatabaseSortable.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CDatabaseSortByHiringYear.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CDatabase.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CEmployee.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CDatabaseSortByLastName.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CDatabaseSortByFirstName.h</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/main.cpp</file>
-            <file>file:/Users/ryancornillie/Documents/SS16/CSE335/Proj02/CDatabaseSortBySalary.h</file>
+            <file>file:/Users/ryancornillie/Documents/CSE335Projects/Proj02/main.cpp</file>
+            <file>file:/Users/ryancornillie/Documents/CSE335Projects/Proj02/CEmployee.h</file>
+            <file>file:/Users/ryancornillie/Documents/CSE335Projects/Proj02/CDatabaseSortable.h</file>
         </group>
     </open-files>
 </project-private>
