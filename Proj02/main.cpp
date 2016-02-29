@@ -48,7 +48,7 @@ int main(int argc, char** argv) {
     
     //build vector of employee and managers
     hiringYear.tm_year = 2011;
-    allEmps.push_back(new CEmployee("John", "Smith", 10000, hiringYear));
+    allEmps.push_back(new CEmployee("John", "Smith1", 10000, hiringYear));
     hiringYear.tm_year = 2012;
     allEmps.push_back(new CEmployee("John", "Smith2", 20000, hiringYear));
     hiringYear.tm_year = 2013;
@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
    
     
     hiringYear.tm_year = 2010;
-    allEmps.push_back(new CEmployee("John", "Doe", 15000, hiringYear));
+    allEmps.push_back(new CEmployee("John", "Doe1", 15000, hiringYear));
     hiringYear.tm_year = 2011;
     allEmps.push_back(new CEmployee("John", "Doe2", 25000, hiringYear));
     hiringYear.tm_year = 2012;
