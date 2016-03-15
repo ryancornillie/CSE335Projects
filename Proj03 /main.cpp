@@ -1,12 +1,12 @@
 #include "Employee.h"
 #include "Manager.h"
-#include "PrintVisitor.h"
-#include "Group.h"
-#include "Department.h"
-#include "SumsalaryVisitor.h"
+//#include "PrintVisitor.h"
+//#include "Group.h"
+//#include "Department.h"
+//#include "SumsalaryVisitor.h"
 
 int main(int argc, char *argv[]) {
-    Employee JohnSmith1("John","Smith1",10000,2011, 1);
+    /*Employee JohnSmith1("John","Smith1",10000,2011, 1);
     Employee JohnSmith2("John","Smith2",20000,2012,2);
     Employee JohnSmith3("John","Smith3",30000, 2013,3);
     Manager TomCruiseManager("Tom","Cruise",40000, 2000, 5,1);
@@ -44,5 +44,5 @@ int main(int argc, char *argv[]) {
     SumsalaryVisitor sv;
     salesDept.Accept(&sv);
     cout<<"Total Salary = "<<sv.getTotalSalary()<<endl;
-    sv.restTotalSalary();
+    sv.restTotalSalary();*/
     }
