@@ -95,6 +95,11 @@ public:
     
     virtual void print() const{
         cout << m_DepartmentName << endl;
+        
+        for (int i=0; i<m_SubDepartments.size(); i++){
+            m_SubDepartments[i]->print();
+        }
+        
     }
     
     
