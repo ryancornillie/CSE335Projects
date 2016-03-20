@@ -26,7 +26,7 @@ public:
         m->print();
     }
     
-    virtual void VisitDeparment(Department* d){
+    virtual void VisitDepartment(Department* d){
         d->print();
     }
     
