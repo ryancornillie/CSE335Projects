@@ -5,7 +5,7 @@
 #include "PrintVisitor.h"
 #include "Group.h"
 #include "Department.h"
-//#include "SumsalaryVisitor.h"
+#include "SumsalaryVisitor.h"
 
 int main(int argc, char *argv[]) {
     Employee JohnSmith1("John","Smith1",10000,2011, 1);
@@ -43,8 +43,9 @@ int main(int argc, char *argv[]) {
     PrintVisitor pv;
     salesDept.Accept(&pv);
 
-    /*SumsalaryVisitor sv;
+    SumsalaryVisitor sv;
     salesDept.Accept(&sv);
     cout<<"Total Salary = "<<sv.getTotalSalary()<<endl;
+    /*
     sv.restTotalSalary();*/
     }

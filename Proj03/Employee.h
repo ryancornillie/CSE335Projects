@@ -102,7 +102,7 @@ public:
         
     }
     
-    unsigned int getSalary() const{
+    unsigned long getSalary() const{
         
         return m_Salary;
     }

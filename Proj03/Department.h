@@ -102,6 +102,14 @@ public:
         
     }
     
+    unsigned long getSalary() const{
+        unsigned long total = 0;
+         for (int i=0; i<m_SubDepartments.size(); i++){
+            total += m_SubDepartments[i]->getSalary();
+        }
+        return total;
+    }
+    
     
 };
 

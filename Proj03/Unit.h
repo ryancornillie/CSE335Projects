@@ -8,15 +8,15 @@
 
 #ifndef Unit_h
 #define Unit_h
-using namespace std;
 #include <string>
 
 class Unit{
 public:
     virtual void print() const = 0;
     
-    virtual void Accept(class Visitor*) = 0;
+    virtual unsigned long getSalary() const = 0;
     
+    virtual void Accept(class Visitor*) = 0;
     
 };
 
