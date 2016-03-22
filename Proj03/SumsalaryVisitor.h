@@ -27,6 +27,10 @@ public:
     unsigned long getTotalSalary() const{
         return m_TotalSalary;
     }
+    
+    void restTotalSalary(){
+        m_TotalSalary = 0;
+    }
     virtual void VisitEmployee(Employee* e){
         m_TotalSalary += e->getSalary();
     }
@@ -36,11 +40,15 @@ public:
     }
     
     virtual void VisitDepartment(Department* d){
-         m_TotalSalary += d->getSalary();
+        for (int i=0; i<d->getSubDepartments().size(); i++){
+           d->getSubDepartments()[i]->Accept(this);
+        }
     }
     
     virtual void VisitGroup(Group* g){
-        m_TotalSalary += g->getSalary();
+        for (int i=0; i<g->getMembers().size(); i++){
+            m_TotalSalary += g->getMembers()[i]->getSalary();
+        }
     }
 };
 

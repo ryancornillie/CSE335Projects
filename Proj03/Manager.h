@@ -68,7 +68,7 @@ public:
     //displays the attributes for a manager
     virtual void print() const{
         
-        cout<<"          "<<m_FirstName<<" "<<m_LastName<<"; "<<m_Salary<<"; "<<m_HiringYear<<"; " << m_Id <<"; " << m_Rank << endl;
+       cout<<m_FirstName<<" "<<m_LastName<<"; "<<m_Salary<<"; "<<m_HiringYear<<"; " << m_Id <<"; " << m_Rank << endl;
         
     }
     

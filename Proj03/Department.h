@@ -87,28 +87,15 @@ public:
         v->VisitDepartment(this);
     }
     
-    
     void addDepartmentMember(Unit* u){
         m_SubDepartments.push_back(u);
     }
     
-    
     virtual void print() const{
         cout << m_DepartmentName << endl;
-        
-        for (int i=0; i<m_SubDepartments.size(); i++){
-            m_SubDepartments[i]->print();
-        }
-        
     }
     
-    unsigned long getSalary() const{
-        unsigned long total = 0;
-         for (int i=0; i<m_SubDepartments.size(); i++){
-            total += m_SubDepartments[i]->getSalary();
-        }
-        return total;
-    }
+
     
     
 };

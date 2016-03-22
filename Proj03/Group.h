@@ -96,20 +96,9 @@ public:
         
         cout << m_GroupName << endl;
         
-        for (int i = 0; i<m_Members.size() ; i++){
-            m_Members[i]->print();
-        }
-    
     }
     
-     unsigned long getSalary() const{
-         unsigned long total = 0;
-         for (int i = 0; i<m_Members.size() ; i++){
-            total += m_Members[i]->getSalary();
-            //cout<<total<<endl;
-        }
-         return total;
-     } 
+   
     
     
     

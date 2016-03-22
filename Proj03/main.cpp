@@ -32,6 +32,7 @@ int main(int argc, char *argv[]) {
     group2.addGroupMember(&JohnDoe1);
     group2.addGroupMember(&JohnDoe2);
     group2.addGroupMember(&JohnDoe3);
+   
 
     Employee SingleMan("Single","Man",50000,2009,10);
 
@@ -46,6 +47,5 @@ int main(int argc, char *argv[]) {
     SumsalaryVisitor sv;
     salesDept.Accept(&sv);
     cout<<"Total Salary = "<<sv.getTotalSalary()<<endl;
-    /*
-    sv.restTotalSalary();*/
+    sv.restTotalSalary();
     }

@@ -19,20 +19,31 @@
 class PrintVisitor: public Visitor{
 public:
     virtual void VisitEmployee(Employee* e){
+        cout<<"                    ";
         e->print();
     }
     
     virtual void VisitManager(Manager* m){
+        cout<<"                    ";
         m->print();
     }
     
     virtual void VisitDepartment(Department* d){
         d->print();
+        for (int i=0; i<d->getSubDepartments().size(); i++){
+            d->getSubDepartments()[i]->Accept(this);
+        }
+        
     }
     
     virtual void VisitGroup(Group* g){
         g->print();
+        for (int i = 0; i<g->getMembers().size() ; i++){
+            g->getMembers()[i]->Accept(this);
+        }
+    
     }
+    
 };
 
 #endif /* PrintVisitor_h */
