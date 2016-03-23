@@ -26,7 +26,7 @@ public:
     }
     
     virtual void VisitManager(Manager* m){
-        cout<<"                    ";
+        cout<<"          ";
         m->print();
     }
     
