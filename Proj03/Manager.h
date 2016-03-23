@@ -64,7 +64,7 @@ public:
     }
     
     
-    //print function to match sample output.  Virtual function to be called for manager pointers
+    //Virtual function to be called for manager pointers
     //displays the attributes for a manager
     virtual void print() const{
         

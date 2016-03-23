@@ -82,7 +82,7 @@ public:
     
 
 
-    //to make sample output.  Prints the attributes of an employee
+    //Prints the attributes of an employee
     virtual void print() const{
         
         cout<<m_FirstName<<" "<<m_LastName<<"; "<<m_Salary<<"; "<<m_HiringYear<<"; "<< m_Id << endl;

@@ -73,8 +73,7 @@ public:
         return m_SubDepartments;
     }
     
-    //Setters
-    
+    //Setters 
     void setDepartmentName(const string departmentName){
         m_DepartmentName = departmentName;
     }
@@ -94,9 +93,6 @@ public:
     virtual void print() const{
         cout << m_DepartmentName << endl;
     }
-    
-
-    
     
 };
 
