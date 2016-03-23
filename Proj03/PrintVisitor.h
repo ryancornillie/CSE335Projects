@@ -18,6 +18,8 @@
 
 class PrintVisitor: public Visitor{
 public:
+    
+    //employees and managers are indented 
     virtual void VisitEmployee(Employee* e){
         cout<<"                    ";
         e->print();
@@ -28,6 +30,7 @@ public:
         m->print();
     }
     
+    //call correct visit function for print visitor for each subDepartment
     virtual void VisitDepartment(Department* d){
         d->print();
         for (int i=0; i<d->getSubDepartments().size(); i++){
@@ -36,6 +39,7 @@ public:
         
     }
     
+    //for each member in a group call correct visit print function
     virtual void VisitGroup(Group* g){
         g->print();
         for (int i = 0; i<g->getMembers().size() ; i++){

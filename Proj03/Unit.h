@@ -15,8 +15,8 @@ public:
     
    virtual void print() const = 0;
    
-   //pure virtual Accept function must be implemented 
-   //in order to work with visitor pattern
+   /*pure virtual Accept function must be implemented 
+   in order to work with visitor pattern*/
    virtual void Accept(class Visitor*) = 0;
     
 };
